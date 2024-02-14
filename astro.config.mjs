@@ -8,4 +8,5 @@ import robotsTxt from "astro-robots-txt";
 export default defineConfig({
   integrations: [tailwind(), compress(), robotsTxt()],
   site: 'https://Heidi-Negrete.github.io',
+  base: "/northeast-roofing",
 });
